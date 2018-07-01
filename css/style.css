@@ -1,0 +1,72 @@
+html, body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  margin: 0;
+  font-family: 'Comfortaa', cursive;
+  font-size: 24px;
+  text-align: center; }
+
+h1 {
+  font-weight: 800;
+  font-size: 40px;
+  margin: 0; }
+
+nav {
+  padding: 10px;
+  background: yellowgreen; }
+  nav a {
+    text-decoration: none;
+    color: black;
+    outline: none;
+    padding: 0 5px; }
+    nav a:hover {
+      color: white; }
+
+.fun {
+  margin-top: 40px;
+  padding-bottom: 20px; }
+  .fun > * {
+    padding-left: 20px;
+    padding-right: 20px; }
+
+.fd {
+  padding-top: 20px;
+  height: 300px;
+  background: skyblue;
+  position: relative; }
+  .fd img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%; }
+  .fd h1 {
+    position: absolute;
+    color: white;
+    width: 100%;
+    left: 0;
+    text-shadow: 2px 2px blue; }
+
+.kontaktai {
+  text-align: left;
+  padding: 0 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap; }
+  .kontaktai .susisiek {
+    width: 100%; }
+    .kontaktai .susisiek h3 {
+      background: black;
+      color: white;
+      padding: 8px;
+      margin: 0; }
+  .kontaktai .details {
+    display: inline-block;
+    width: 50%; }
+  .kontaktai img {
+    display: inline-block;
+    width: 50%;
+    height: 50%; }
+
+/*# sourceMappingURL=style.css.map */
