@@ -6,7 +6,8 @@ body {
   margin: 0;
   font-family: 'Comfortaa', cursive;
   font-size: 24px;
-  text-align: center; }
+  text-align: center;
+  overflow-x: hidden; }
 
 h1 {
   font-weight: 800;
@@ -62,11 +63,16 @@ nav {
       padding: 8px;
       margin: 0; }
   .kontaktai .details {
-    display: inline-block;
-    width: 50%; }
+    width: 50%;
+    word-wrap: break-word; }
   .kontaktai img {
-    display: inline-block;
     width: 50%;
     height: 50%; }
+
+@media only screen and (max-width: 800px) {
+  .kontaktai .details {
+    width: 100%; }
+  .kontaktai img {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

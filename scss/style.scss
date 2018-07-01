@@ -8,6 +8,7 @@ body {
   font-family: 'Comfortaa', cursive;
   font-size: 24px;
   text-align: center;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -84,13 +85,24 @@ nav {
   }
 
   .details {
-    display: inline-block;
     width: 50%;
+    word-wrap: break-word;
   }
 
   img {
-    display: inline-block;
     width: 50%;
     height: 50%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .kontaktai {
+    .details {
+      width: 100%;
+    }
+
+    img {
+      width: 100%;
+    }
   }
 }
