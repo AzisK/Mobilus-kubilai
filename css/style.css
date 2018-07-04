@@ -14,7 +14,7 @@ h1 {
   font-size: 40px;
   margin: 0; }
 
-h2 {
+h3 {
   margin: 0; }
 
 header {
@@ -27,12 +27,16 @@ header {
 
 nav {
   padding: 10px;
-  flex-grow: 1; }
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between; }
   nav a {
     text-decoration: none;
     color: black;
     outline: none;
     padding: 0 5px; }
+    nav a:not(.contacts) {
+      flex-grow: 1; }
     nav a:hover {
       color: white; }
 
