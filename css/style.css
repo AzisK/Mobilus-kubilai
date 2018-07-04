@@ -14,9 +14,20 @@ h1 {
   font-size: 40px;
   margin: 0; }
 
+h2 {
+  margin: 0; }
+
+header {
+  display: flex;
+  background: yellowgreen; }
+  header .logo {
+    padding: 5px;
+    color: white;
+    text-shadow: 2px 2px blue; }
+
 nav {
   padding: 10px;
-  background: yellowgreen; }
+  flex-grow: 1; }
   nav a {
     text-decoration: none;
     color: black;
@@ -42,12 +53,6 @@ nav {
     left: 0;
     top: 0;
     height: 100%; }
-  .fd h1 {
-    position: absolute;
-    color: white;
-    width: 100%;
-    left: 0;
-    text-shadow: 2px 2px blue; }
 
 .kontaktai {
   text-align: left;
